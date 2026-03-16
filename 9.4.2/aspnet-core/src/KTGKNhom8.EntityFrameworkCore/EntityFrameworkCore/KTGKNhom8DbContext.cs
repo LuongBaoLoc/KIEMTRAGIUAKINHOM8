@@ -14,6 +14,7 @@ namespace KTGKNhom8.EntityFrameworkCore
         // Thêm 4 bảng quản lý thi TOEIC vào đây:
         public DbSet<Exam> Exams { get; set; }
         public DbSet<ExamPart> ExamParts { get; set; }
+
         public DbSet<Passage> Passages { get; set; }
         public DbSet<Question> Questions { get; set; }
         
