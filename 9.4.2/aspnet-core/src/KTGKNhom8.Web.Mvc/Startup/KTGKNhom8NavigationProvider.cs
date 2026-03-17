@@ -23,6 +23,14 @@ namespace KTGKNhom8.Web.Startup
                 )
                 .AddItem(
                     new MenuItemDefinition(
+                        "UploadToeic",
+                        new Abp.Localization.FixedLocalizableString("Tải Đề Thi TOEIC"),
+                        url: "Exam/Upload",
+                        icon: "fas fa-file-word"
+                    )
+                )
+                .AddItem(
+                    new MenuItemDefinition(
                         PageNames.Home,
                         L("HomePage"),
                         url: "",
